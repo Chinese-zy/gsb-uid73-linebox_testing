@@ -1,6 +1,10 @@
 {
   "name": "linebox",
   "private": true,
+  "scripts": {
+    "test": "node test/layout.test.js",
+    "test:shot": "node test/shot.test.js"
+  },
   "dependencies": {
     "pixelmatch": "5.3.0",
     "pngjs": "7.0.0"
