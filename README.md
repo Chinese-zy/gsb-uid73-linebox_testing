@@ -3,5 +3,9 @@
 npm install
 node test/shot.test.js
 
+核对布局跑这条，不比图，字宽行高盒宽写死，可重跑：
+
+node test/layout.test.js
+
 页面直接打开 index.html。字宽、行高、盒子宽都写在页面上。
 整页比对那条会红，窗口或字体一变就对不上，不要拿它当布局已经坏了。
