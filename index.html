@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <title>行盒</title>
+  <style>
+    body { margin: 0; background: #f4f1ea; color: #1c1917; font: 16px/16px "Songti SC", serif; }
+    main { padding: 24px; }
+    h1 { font-size: 20px; margin: 0 0 16px; }
+    .box { width: 80px; line-height: 16px; border: 1px solid #d6d3d1; margin: 0 0 12px; padding: 0; overflow: hidden; background: #fff; }
+    .wide { width: 160px; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>行盒</h1>
+    <div class="box" id="short"></div>
+    <div class="box wide" id="long"></div>
+    <div class="box" id="clip"></div>
+    <pre id="readout"></pre>
+  </main>
+  <script src="js/layout.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
